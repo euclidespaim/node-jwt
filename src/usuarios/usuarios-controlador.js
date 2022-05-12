@@ -84,3 +84,5 @@ module.exports = {
     }
   },
 };
+
+// It is not our differences that divide us. It is our inability to recognize, accept, and celebrate those differences. - Audre Lorde
