@@ -18,7 +18,7 @@ module.exports = lista => {
         },
 
         async contemToken(token) {
-            const resultado = await existsAsync(chave);
+            const resultado = await existsAsync(token);
             
             return resultado === 1;
         },
