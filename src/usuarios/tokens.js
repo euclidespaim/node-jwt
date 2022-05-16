@@ -7,6 +7,7 @@ const { InvalidArgumentError } = require('../erros');
 const allowlistRefreshToken = require('../../redis/allowlist-refresh-token');
 const blocklistAccessToken = require('../../redis/blocklist-access-token');
 
+
 function criaTokenJWT(id, [tempoQuantidade, tempoUnidade]) {
   const payload = { id };
   const token = jwt.sign(payload, process.env.CHAVE_JWT, {
